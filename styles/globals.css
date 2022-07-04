@@ -1,8 +1,133 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+/* Landing Page CSS */
 * {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+.p-2 {
+  padding: 0rem!important;
+}
+.navbar{
+  padding: 15px 15px;
+  background-color: transparent;
+  position: relative;
+  z-index: 100;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #253b73;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0px 20px;
+}
+/* Banner css start  */
+.Banner{
+  width: 100%;
+  height: 70vh;
+ background-color: #ebf4fb;
+  display: flex;
+}
+.Banner--data{
+  width: 50%;
+  height: 70vh;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .bannerheading{
+    font-size: 50px;
+  }
+  .data{
+    width: 80%;
+    /* background-color: #253b73; */
+    padding: 15px 50px;
+    color: #000e52;
+    margin-top: 20px;
+  }
+  .Banner--Img{
+    width: 50%;
+    height: auto;
+  }
+  .Banner--Img > img{
+   width: 100%;
+   height: 70vh;
+  }
+/* Banner Css end  */
+.titile{
+  text-align: center;
+  padding: 50px 0px;
+  color: #000e52;
+}
+
+
+/* CArd section start css */
+.card-caontainer{
+  width: 100%;
+  height: 50vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: #000e52; */
+  padding: 0px 80px;
+}
+.Mycard{
+  width: 20rem;
+  height: auto;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.Mycard:hover{
+background-color: #000e52;
+color: #fff;
+cursor: pointer;
+box-shadow: none;
+}
+/* .Tollared--Sec Start CSs  */
+.Tollared--Sec{
+  width: 100%;
+  height: 70vh;
+  /* background-color: burlywood; */
+  padding: 25px;
+}
+.Tollared--Box{
+  width: 100%;
+  height: 63vh;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+.Tollared--left{
+  width: 35%;
+  height: 63vh;
+  padding: 20px 50px;
+}
+.Tollared--btn{
+  padding: 30px 25px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px dotted #000e52;
+  text-align: center;
+  font-weight: bold;
+}
+.Tollared--btn:hover{
+ background-color: #000e52;
+ color: #fff;
+}
+.vector{
+  width: 16px;
+  height: 16px;
+}
+h3, h5{
+  color: #000e52;
+  font-weight: 700;
+}

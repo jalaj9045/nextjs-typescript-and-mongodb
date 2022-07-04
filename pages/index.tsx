@@ -1,11 +1,9 @@
-import Link from "next/link";
-import Header from "src/components/Header";
-
+import Header from "./Header";
+import Landing from "./Landing";
 export default function Home() {
   return (
-    <div>
-      <Header>NextJS with TS and mongo:)</Header>
-      <Link href="/posts">Posts</Link>
-    </div>
+    <>
+     <Landing/>
+    </>
   );
 }
