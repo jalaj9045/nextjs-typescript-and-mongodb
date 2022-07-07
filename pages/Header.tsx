@@ -16,7 +16,7 @@ export default function Header() {
 
    
 <nav className="navbar navbar-expand-lg navbar-light ">
-  <a className="navbar-brand">HFGrow</a>
+  <a className="navbar-brand"> <Image src="/Logo.png" width={160}  height={70}/> </a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
     aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -24,23 +24,23 @@ export default function Header() {
   <div className="collapse navbar-collapse" id="navbarSupportedContent-555">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item">
-      <Link  href="/Banner">
+      <Link  href="/">
         <a className="nav-link">Home
         </a>
         </Link>
       </li>
       <li className="nav-item">
-      <Link  href="#">
+      <Link  href="/Product">
         <a className="nav-link">Product</a>
         </Link>
       </li>
       <li className="nav-item">
-      <Link  href="#">
+      <Link  href="/Service">
         <a className="nav-link">Service</a>
         </Link>
       </li>
       <li className="nav-item">
-      <Link  href="#">
+      <Link  href="/Smart">
         <a className="nav-link">Smart RFQ</a>
         </Link>
       </li>
@@ -49,8 +49,22 @@ export default function Header() {
         <a className="nav-link">Smart Contract</a>
         </Link>
       </li>
+ 
     </ul>
     <ul className="navbar-nav ml-auto nav-flex-icons">
+    <li className="nav-item">
+      <Link  href="#">
+      <button className="navbtn">Get Start</button>
+        </Link>
+      </li>
+      <li className="nav-item avatar">
+        <Link  href="#">
+        <a className="nav-link p-0">
+        <Image src="/search.png" className='rounded-circle z-depth-0'
+            alt="avatar image" width="32" height="32" />
+        </a>
+        </Link>
+      </li>
       <li className="nav-item avatar">
         <Link  href="#">
         <a className="nav-link p-0">

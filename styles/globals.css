@@ -14,9 +14,16 @@
 .p-2 {
   padding: 0rem!important;
 }
+.navbtn{
+  padding: 5px 20px;
+  background-color: #000e52;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
 .navbar{
-  padding: 15px 15px;
-  background-color: transparent;
+  padding: 0px 15px;
+  background-color: #ebf4fb;
   position: relative;
   z-index: 100;
 }
@@ -63,7 +70,7 @@
 /* Banner Css end  */
 .titile{
   text-align: center;
-  padding: 50px 0px;
+  padding: 40px 0px;
   color: #000e52;
 }
 
@@ -71,12 +78,12 @@
 /* CArd section start css */
 .card-caontainer{
   width: 100%;
-  height: 50vh;
+  height: auto;
   align-items: center;
   display: flex;
   justify-content: space-around;
   /* background-color: #000e52; */
-  padding: 0px 80px;
+  padding: 15px 80px;
 }
 .Mycard{
   width: 20rem;
@@ -101,6 +108,7 @@ box-shadow: none;
   padding: 25px;
 }
 .Tollared--Box{
+  display: flex;
   width: 100%;
   height: 63vh;
   background-color: #f5f5f5;
@@ -127,7 +135,476 @@ box-shadow: none;
   width: 16px;
   height: 16px;
 }
-h3, h5{
+h3, h5, h2{
   color: #000e52;
-  font-weight: 700;
+  font-weight: 600;
+}
+.btns{
+  /* background-color: #000e52; */
+  padding: 8px;
+}
+.arrow--btn{
+  padding: 5px 15px;
+  margin: 0px 10px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+}
+/* .Tollared--right Css  */
+.Tollared--right{
+  width: 100%;
+  height: 63vh;
+  padding: 20px 50px;
+  /* background-color: burlywood; */
+}
+.Serch--item{
+  width: 80%;
+  height: 15vh;
+  /* background-color: #253b73; */
+}
+.Serch--Drop{
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+}
+.search--input{
+  width: 70%;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.Search--Btn{
+  padding: 8px 20px;
+  font-size: 20px;
+  background-color: #000e52;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+
+/* slider  */
+.slider{
+  width: 100%;
+  height: 35vh;
+  /* background-color: coral; */
+}
+
+/* Slider ke baad ka cards */
+.OneCard{
+  width: 100%;
+  /* background-color: #000e52; */
+  display: flex;
+  padding: 30px;
+}
+.throw{
+  width: 20rem;
+  height: 40vh;
+  border-radius: 15px;
+}
+.throwmargin{
+  margin-top: 100px;
+  margin-left: 50px;
+  /* background-color: red; */
+  height: 40vh;
+  width: 20rem;
+  border-radius: 15px;
+}
+.throwmargin2{
+  margin-top: 200px;
+  margin-left: 50px;
+  height: 40vh;
+  width: 20rem;
+  border-radius: 15px;
+}
+.throwmargin3{
+  margin-top: 300px;
+  margin-left: 50px;
+  height: 40vh;
+  width: 20rem;
+  border-radius: 15px;
+}
+
+
+
+/* Smart Rfq  */
+.Samart--RFQ{
+  width: 100%;
+  height: auto;
+  /* background-color: burlywood; */
+  display: flex;
+}
+.left--RFQ{
+  width: 50%;
+  height: auto;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+}
+.left--RFQ >img{
+  width: 80%;
+  height: auto;
+  /* background-color: pink; */
+}
+.right--RFQ{
+  width: 50%;
+  height: auto;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  padding: 0px 100px;
+}
+.RFQ--BTN{
+  padding: 8px 40px;
+  color: #fff;
+  background-color: #000e52;
+  font-size: 16px;
+  margin-top: 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  text-transform: uppercase;
+}
+.RFQ--BTN2{
+  padding: 8px 40px;
+  color: #000e52;
+  background-color: transparent;
+  font-size: 16px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 2px solid #000e52;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.readMore{
+  margin-left: 15px;
+  color: #000e52;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+/* grey box  */
+.grey--Box{
+  width: 100%;
+  height: auto;
+  padding: 25px;
+}
+.grey--InnerBox{
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  padding: 30px 50px;
+}
+.checksvg{
+  width: 20px;
+  height: 20px;
+}
+.Blog{
+  width: 100%;
+  height: auto;
+  /* background-color: salmon; */
+}
+.imgcards{
+  width: 100%;
+  height: auto;
+  /* background-color: purple; */
+  display: flex;
+  justify-content: space-around;
+}
+.setpadforBlog{
+  padding-left: 100px;
+ padding-top: 20px;
+}
+.Blofcard{
+  width: 18rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: none;
+}
+
+.Landscape--CArds{
+  width: 100%;
+  height: auto;
+  /* background-color: salmon; */
+padding: 20px 100px;
+}
+.Bordercards{
+  width: 100%;
+  height: 24vh;
+  border-top: 1px solid #ebf4fb;
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ebf4fb;
+}
+.Landcard1{
+  width: 30rem;
+  height: 20vh;
+  background-color: transparent;
+  border: none;
+}
+.Landcard1-img{
+  height: 16vh;
+}
+.landbody{
+  padding: 10px 0px;
+}
+.card-text1{
+  font-size: 13px;
+}
+.subscribe{
+  width: 70%;
+  padding: 8px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.subbtn{
+  padding: 10px 15px;
+  background-color: #000e52;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.left--RFQ >img{
+height: 60vh;
+width: 60%;
+}
+.subs{
+  padding: 30px;
+}
+.subs--data{
+  width: 100%;
+  display: flex;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+/* footer css  */
+.footerback{
+  background-color: #000e52;
+}
+.subinput{
+  display: flex;
+}
+.footerinput{
+  height: 40px;
+  width: 100%;
+  padding-left: 15px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: #fff;
+}
+.footerinput::placeholder{
+  color: #fff;
+}
+.sendbtn{
+  padding: 2px 10px;
+  background-color: #2596be;
+  outline: none;
+  border: none;
+}
+.cardBox{
+  width: 150px;
+  height: 150px;
+  background-color: coral;
+}
+
+
+/* responsive this page */
+@media (max-width: 952px){
+  .Banner {
+    width: 100%;
+    height: auto;
+    background-color: #ebf4fb;
+    display: block;
+}
+.Banner--data {
+  width: 100%;
+  height: auto;
+display: block;
+}
+.data {
+  width: 100%;
+  padding: 15px 16px;
+  color: #000e52;
+  margin-top: 0px;
+}
+.Banner--Img {
+  width: 100%;
+  height: auto;
+}
+.Banner--Img > img {
+  width: 100%;
+  height: auto;
+}
+.card-caontainer {
+  width: 100%;
+  height: auto;
+display: block;
+  padding: 10px;
+}
+.Mycard {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin: 10px 0px;
+}
+.Tollared--Sec {
+  width: 100%;
+  height: auto;
+  /* background-color: rebeccapurple; */
+  padding: 25px;
+}
+.Tollared--Box {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+.Tollared--left {
+  width: 100%;
+  height: auto;
+  padding: 10px 10px;
+}
+.Tollared--right {
+  width: 100%;
+  height: auto;
+  padding: 20px 10px;
+  /* background-color: burlywood; */
+}
+.Serch--item {
+  width: 100%;
+  height: 15vh;
+  /* background-color: #253b73; */
+}
+.search--input {
+  width: 70%;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.OneCard {
+  width: 100%;
+  /* background-color: #000e52; */
+  display: block;
+  padding: 30px;
+}
+.Samart--RFQ {
+  width: 100%;
+  height: auto;
+  /* background-color: burlywood; */
+  display: block;
+}
+.grey--Box {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.left--RFQ {
+  width: 100%;
+  height: auto;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+}
+.right--RFQ {
+  width: 100%;
+  height: auto;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+}
+.left--RFQ >img {
+  height: auto;
+  width: 100%;
+}
+.grey--InnerBox {
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  padding: 10px;
+
+}
+.setpadforBlog {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.imgcards {
+  width: 100%;
+  height: auto;
+  /* background-color: purple; */
+  display: block;
+  padding: 10px;
+}
+.Blofcard {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: none;
+}
+.Landcard1 {
+  width: 30rem;
+  height: auto;
+  background-color: transparent;
+  border: none;
+}
+.Bordercards {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #ebf4fb;
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ebf4fb;
+}
+.Landscape--CArds {
+  width: 100%;
+  height: auto;
+  /* background-color: salmon; */
+  padding: 20px 5px;
+}
+.subs--data {
+  width: 100%;
+  display: block;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  text-align: center;
+}
+.subscribe {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.subbtn {
+ margin-top: 8px;
+}
+.navbtn {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #000e52;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.avatar{
+  display: none;
+}
 }
